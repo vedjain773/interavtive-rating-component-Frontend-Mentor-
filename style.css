@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+
+    --para-size: 15px;
+
+    --head-weight: 700;
+    --normal-weight: 400;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: var(--white);
+    word-spacing: 2px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    background-color: var(--very-dark-blue);
+    display: grid;
+    min-height: 90vh;
+    place-items: center;
+}
+
+.card-rating img {
+    padding: 0.75em;
+    background-color: hsl(214, 20%, 16%);
+    border-radius: 50%;
+}
+
+.card-rating .header {
+    margin-top: 15px;
+    color: var(--white);
+    font-weight: var(--head-weight);
+}
+
+.card-rating .info {
+    color: var(--medium-grey);
+    font-size: var(--para-size);
+}
+
+.card-rating .ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 12px;
+}
+
+.card-rating .rate-no {
+    color: var(--medium-grey);
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(214, 20%, 16%);
+    border: none;
+    color: var(--medium-grey);
+    height: 40px;
+    width: 41px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.card-rating .rate-no:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    transition: all 250ms ease-in-out;
+}
+
+button.sub {
+    border: none;
+    font-family: "Overpass", sans-serif;
+    font-size: 13.5px;
+    color: var(--white);
+    background-color: var(--orange);
+    height: 35px;
+    width: 330px;
+    border-radius: 35px;
+    letter-spacing: 1.25px;
+    font-weight: var(--head-weight);
+}
+
+button.sub:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    transition: all 200ms ease-in-out;
+    font-weight: var(--head-weight);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.card-rating {
+    display: block;
+    width: 330px;
+    height: max-content;
+    background-color: var(--dark-blue);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+button.rate-no.active {
+    background-color: var(--light-grey);
+    color: var(--white);
+    transition: all 250ms ease-in-out;
+}
+
+.card-ty img {
+    margin-bottom: 15px;
+}
+
+.card-ty .rate-info-ty {
+    color: var(--orange);
+    margin-bottom: 30px;
+    width: max-content;
+    margin: 7px auto 30px;
+    padding: 7px 10px;
+    background-color: hsl(214, 20%, 16%);
+    border-radius: 35px;
+}
+
+.card-ty .header-ty {
+    color: var(--white);
+    margin-bottom: 5px;
+}
+
+.card-ty .info-ty {
+    color: var(--medium-grey);
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.card-ty {
+    display: none;
+    width: 330px;
+    font-size: var(--para-size);
+    text-align: center;
+    background-color: var(--dark-blue);
+    padding: 20px 15px;
+    border-radius: 15px;
+}
