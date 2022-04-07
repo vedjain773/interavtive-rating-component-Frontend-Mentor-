@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vedjain773/interavtive-rating-component-Frontend-Mentor-)
-- Live Site URL: [Add live site URL here](https://vedjain773.github.io/interavtive-rating-component-Frontend-Mentor-/)
+- Solution URL: [Solution](https://github.com/vedjain773/interavtive-rating-component-Frontend-Mentor-)
+- Live Site URL: [Livesite](https://vedjain773.github.io/interavtive-rating-component-Frontend-Mentor-/)
 
 ## My process
 
